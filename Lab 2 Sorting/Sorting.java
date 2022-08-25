@@ -3,6 +3,11 @@ package lab.pkg2.sorting;
 import java.util.Arrays;
 import java.util.Random;
 
+/*	Conclusión lab 2
+	Pese a ser sencillo de implementar el Bubble Sort es el menos eficiente de los tres. 
+	El Mergue Sort es bastante eficiente. El Java Sort es el mas eficiente y rápido.
+*/
+
 public class Sorting {
 
 	public static int[] fillArray(int n) {
