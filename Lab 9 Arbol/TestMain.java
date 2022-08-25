@@ -2,6 +2,19 @@ package lab.pkg9.arbol;
 
 import java.lang.*;    
 
+/*	Conclusión lab 9
+	1) ¿Cuál estructura es más eficiente a la hora de realizar búsquedas? ¿Por qué? 
+R: Es el AVL en cada caso porque es un árbol binario balanceado, de tal forma que su estructura de búsqueda es de orden O(logN), 
+y solo hay que hacer comparaciones de si es mayor, menor o igual.
+
+	2) ¿Cuál estructura es más eficiente a la hora de realizar inserciones? ¿Por qué?
+R: Por lo general es el BST ya que no necesita ordenarse después de cada inserción, 
+sin embargo en el caso de la inserción de una gran cantidad de números que vallan solo incrementando 
+(Por ejemplo ingresando los números del 1 al 100000 de forma ordenada) o disminuyendo, 
+es más eficiente el AVL al estar siempre balanceado.
+
+*/
+
 public class TestMain {
     public static void main(String[] args) {
 	BSTree tree1 =new BSTree();
